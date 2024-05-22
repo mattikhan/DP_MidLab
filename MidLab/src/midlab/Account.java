@@ -1,0 +1,16 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package midlab;
+
+/**
+ *
+ * @author sp21-bse-030
+ */
+abstract class Account {
+  public abstract double getBalance();
+  public abstract void debit(double amount);
+  public abstract void credit(double amount);
+}
